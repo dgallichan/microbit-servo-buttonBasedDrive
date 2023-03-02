@@ -4,12 +4,15 @@ function updateServo () {
 }
 input.onLogoEvent(TouchButtonEvent.LongPressed, function () {
     servoValue = 90
+    updateServo()
 })
 input.onButtonPressed(Button.A, function () {
     servoValue += -5
+    updateServo()
 })
 input.onButtonPressed(Button.B, function () {
     servoValue += 5
+    updateServo()
 })
 let servoValue = 0
 servoValue = 90
