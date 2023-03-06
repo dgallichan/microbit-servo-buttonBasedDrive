@@ -5,7 +5,9 @@
         "core": "*",
         "radio": "*",
         "microphone": "*",
-        "pxt-kitronik-I2C-16-servo": "github:kitronikltd/pxt-kitronik-i2c-16-servo#v0.9.3"
+        "pxt-kitronik-I2C-16-servo": "github:kitronikltd/pxt-kitronik-i2c-16-servo#v0.9.3",
+        "microbit-pxt-clicks": "github:bsiever/microbit-pxt-clicks#v0.2.2",
+        "pxt-kitronik-viewtext32": "github:kitronikltd/pxt-kitronik-viewtext32#v1.2.2"
     },
     "files": [
         "main.blocks",
