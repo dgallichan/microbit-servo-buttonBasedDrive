@@ -1,12 +1,12 @@
 buttonClicks.onButtonSingleClicked(buttonClicks.AorB.B, function () {
-    servoValue += 5
+    servoValue += 1
     updateServo()
 })
 function updateServo () {
 	
 }
 buttonClicks.onButtonDoubleClicked(buttonClicks.AorB.A, function () {
-    servoValue = 5
+    servoValue = 0
     updateServo()
 })
 input.onLogoEvent(TouchButtonEvent.LongPressed, function () {
@@ -14,11 +14,11 @@ input.onLogoEvent(TouchButtonEvent.LongPressed, function () {
     updateServo()
 })
 buttonClicks.onButtonHeld(buttonClicks.AorB.B, function () {
-    servoValue += 15
+    servoValue += 5
     updateServo()
 })
 buttonClicks.onButtonSingleClicked(buttonClicks.AorB.A, function () {
-    servoValue += -5
+    servoValue += -1
     updateServo()
 })
 buttonClicks.onButtonDoubleClicked(buttonClicks.AorB.B, function () {
@@ -26,7 +26,7 @@ buttonClicks.onButtonDoubleClicked(buttonClicks.AorB.B, function () {
     updateServo()
 })
 buttonClicks.onButtonHeld(buttonClicks.AorB.A, function () {
-    servoValue += -15
+    servoValue += -5
     updateServo()
 })
 let servoValue = 0
